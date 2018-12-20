@@ -65,3 +65,5 @@ build/*
 bak/*
 package-lock.json
 .solium*
+
+.local

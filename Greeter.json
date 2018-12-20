@@ -1,0 +1,8 @@
+{
+   "appName": "Greeter",
+   "artifactDir": "/home/jasonlin/Proj/Playground/bladeiron_demo_app/dapps/Greeter/ABI",
+   "conditionDir": "/home/jasonlin/Proj/Playground/bladeiron_demo_app/dapps/Greeter/Conditions",
+   "contracts": [{ "ctrName": "Greeter", "conditions": ["Sanity"] }],
+   "networkID": 4,
+   "version": "1.0" 
+}
