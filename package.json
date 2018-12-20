@@ -1,0 +1,28 @@
+{
+  "name": "bladeiron_demo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "BladeIron_CLI": "git+ssh://git@github.com/elevenbuckets/BladeIron_CLI.git",
+    "truffle": "^5.0.0-next.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaron/bladeiron_demo_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaron/bladeiron_demo_app/issues"
+  },
+  "homepage": "https://github.com/akaron/bladeiron_demo_app#readme"
+}
