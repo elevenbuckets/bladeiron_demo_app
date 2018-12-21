@@ -7,22 +7,22 @@
     "test": "test"
   },
   "dependencies": {
-    "BladeIron_CLI": "git+ssh://git@github.com/elevenbuckets/BladeIron_CLI.git",
     "truffle": "^5.0.0-next.26"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "deploy": "truffle migrate --reset",
+    "abi": "mkdir -p ./dapps/Greeter/ABI && cp -v ./build/contracts/Greeter.json ./dapps/Greeter/ABI/Greeter.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akaron/bladeiron_demo_app.git"
+    "url": "git+https://github.com/elevenbuckets/bladeiron_demo_app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/akaron/bladeiron_demo_app/issues"
+    "url": "https://github.com/elevenbuckets/bladeiron_demo_app/issues"
   },
-  "homepage": "https://github.com/akaron/bladeiron_demo_app#readme"
+  "homepage": "https://github.com/elevenbuckets/bladeiron_demo_app#readme"
 }
